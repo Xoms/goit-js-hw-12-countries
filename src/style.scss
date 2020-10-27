@@ -1,0 +1,50 @@
+img {
+    display: block;
+    width:100%;
+}
+
+.container{
+    width: 1200px;
+    padding: 100px 15px;
+    margin: 0 auto;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+.output {
+    padding: 50px auto;
+}
+.controls {
+    text-align: center;
+    & label{
+        display: block;
+        margin-bottom: 20px;
+    }
+    & input{
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    & input:focus{
+        outline: none;
+    }
+
+
+}
+
+.country__inner{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    margin: 0 auto;
+}
+.country__title {
+    text-align: center;
+}
+.country__description {
+    margin-right: 50px;
+}
+.country__flag {
+    width:50%;
+}
